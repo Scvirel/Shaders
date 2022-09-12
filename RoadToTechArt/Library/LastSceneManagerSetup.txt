@@ -1,9 +1,5 @@
 sceneSetups:
-- path: Assets/Sources/Scenes/Metalic.unity
+- path: Assets/AmplifyShaderEditor/Examples/Built-In/XRay/XRay.unity
   isLoaded: 1
   isActive: 1
-  isSubScene: 0
-- path: Assets/Sources/Scenes/BaseShaderScene.unity
-  isLoaded: 1
-  isActive: 0
   isSubScene: 0

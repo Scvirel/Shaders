@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637986037775446022
-    m_Hash: 1359351873
+      ticks: 637986107064050790
+    m_Hash: 1756960430
   m_LockFileStatus:
     m_FilePath: D:/UnityProjects/RoadToTeachArt/RoadToTechArt/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637986037808197523
-    m_Hash: 346934414
+      ticks: 637986107064050790
+    m_Hash: 88708894
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
