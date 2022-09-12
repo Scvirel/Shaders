@@ -1,0 +1,541 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.14f1 (ff7e140968b4) revision 16743956'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'en' Physical Memory: 16331 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.1.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/UnityProjects/RoadToTeachArt/RoadToTechArt
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63625
+Successfully changed project path to: D:/UnityProjects/RoadToTeachArt/RoadToTechArt
+D:/UnityProjects/RoadToTeachArt/RoadToTechArt
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 157.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.14f1 (ff7e140968b4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProjects/RoadToTeachArt/RoadToTechArt/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     8171 MB
+    Driver:   30.0.13023.4001
+Shader 'Hidden/Universal/Decals': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Hidden/Universal/2D Custom Lit': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.14f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.14f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.029614 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 176.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.776 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1777ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1273ms)
+			LoadAssemblies (134ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (306ms)
+				TypeCache.Initialize (304ms)
+					TypeCache.ScanAssembly (300ms)
+				ResolveRequiredComponents (2ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (103ms)
+			SetupLoadedEditorAssemblies (755ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (136ms)
+				SetLoadedEditorAssemblies (26ms)
+				RefreshPlugins (177ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (317ms)
+				ProcessInitializeOnLoadMethodAttributes (95ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006933 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\RoadToTeachArt\RoadToTechArt\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\RoadToTeachArt\RoadToTechArt\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.446 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2448ms)
+		BeginReloadAssembly (416ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (153ms)
+		EndReloadAssembly (1805ms)
+			LoadAssemblies (216ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (579ms)
+				TypeCache.Initialize (567ms)
+					TypeCache.ScanAssembly (559ms)
+				ResolveRequiredComponents (11ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (188ms)
+			SetupLoadedEditorAssemblies (748ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (46ms)
+				SetLoadedEditorAssemblies (18ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (166ms)
+				ProcessInitializeOnLoadAttributes (449ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Hidden/Universal/Decals': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Hidden/Universal/2D Custom Lit': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (58.6 KB). Loaded Objects now: 4537.
+Memory consumption went from 0.65 GB to 0.65 GB.
+Total: 4.718500 ms (FindLiveObjects: 0.430500 ms CreateObjectMapping: 0.264100 ms MarkObjects: 3.901100 ms  DeleteObjects: 0.121400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008169 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\RoadToTeachArt\RoadToTechArt\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\RoadToTeachArt\RoadToTechArt\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.809 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1810ms)
+		BeginReloadAssembly (229ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (1413ms)
+			LoadAssemblies (143ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (463ms)
+				TypeCache.Initialize (455ms)
+					TypeCache.ScanAssembly (446ms)
+				ResolveRequiredComponents (9ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (126ms)
+			SetupLoadedEditorAssemblies (600ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (13ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (367ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Shader 'Hidden/Universal/Decals': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Hidden/Universal/2D Custom Lit': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 3.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3955 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 115 unused Assets / (37.4 MB). Loaded Objects now: 4552.
+Memory consumption went from 0.66 GB to 0.62 GB.
+Total: 18.762200 ms (FindLiveObjects: 0.379000 ms CreateObjectMapping: 0.137800 ms MarkObjects: 4.111100 ms  DeleteObjects: 14.132800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006579 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\RoadToTeachArt\RoadToTechArt\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\RoadToTeachArt\RoadToTechArt\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.861 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1863ms)
+		BeginReloadAssembly (208ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1492ms)
+			LoadAssemblies (144ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (488ms)
+				TypeCache.Initialize (480ms)
+					TypeCache.ScanAssembly (470ms)
+				ResolveRequiredComponents (8ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (129ms)
+			SetupLoadedEditorAssemblies (650ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (45ms)
+				SetLoadedEditorAssemblies (15ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (409ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Shader 'Hidden/Universal/Decals': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Shader 'Hidden/Universal/2D Custom Lit': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 3.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3955 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 115 unused Assets / (37.5 MB). Loaded Objects now: 4555.
+Memory consumption went from 0.66 GB to 0.62 GB.
+Total: 21.846600 ms (FindLiveObjects: 0.492900 ms CreateObjectMapping: 0.314700 ms MarkObjects: 3.675500 ms  DeleteObjects: 17.362100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 675491.278879 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Models/CalibrationScaleRGB.fbx
+  artifactKey: Guid(d58da073ec467bc4bbb5bc2827811ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Models/CalibrationScaleRGB.fbx using Guid(d58da073ec467bc4bbb5bc2827811ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f030e63336f34e54e97c42f2432db649') in 0.246625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.653502 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Models/headlow.fbx
+  artifactKey: Guid(8ebc8f13d4ece2249af29d95b7985203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Models/headlow.fbx using Guid(8ebc8f13d4ece2249af29d95b7985203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35d093d7c67a8bf8b264c19cba7a6fa') in 0.032725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.565072 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Models/RoundedCube.fbx
+  artifactKey: Guid(0eb2fd97e4b2bc14cbebcba12e219ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Models/RoundedCube.fbx using Guid(0eb2fd97e4b2bc14cbebcba12e219ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c56c323a0eaf46dcdcde2b4441b27a9') in 0.032555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.376233 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Models/Shaderball2.FBX
+  artifactKey: Guid(2d99c4ba773b74442b65d2e9cb72bfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Models/Shaderball2.FBX using Guid(2d99c4ba773b74442b65d2e9cb72bfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26a331f4e771ec7fa27a08436ee03fc') in 0.036596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.884473 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Models/smallmountain.fbx
+  artifactKey: Guid(4cd54f9fc75143d488de04041baa9bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Models/smallmountain.fbx using Guid(4cd54f9fc75143d488de04041baa9bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d33dbe8cb64071cb65a2c92415b5e9') in 0.028237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.682829 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Models/smallwater.fbx
+  artifactKey: Guid(06443348a292aa844b4ea488a15665dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Models/smallwater.fbx using Guid(06443348a292aa844b4ea488a15665dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c0ece5027a821cc5ed4a82efaf2ffd') in 0.027713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.415383 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Models/tv.fbx
+  artifactKey: Guid(8d527972531170946be955405068d689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Models/tv.fbx using Guid(8d527972531170946be955405068d689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d68acf684fcff0770c22e41e52238d') in 0.028904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.470150 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Assets/Models/WallPanel.fbx
+  artifactKey: Guid(e91f7b19526c40b45bf90cfa60742b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyShaderEditor/Examples/Assets/Models/WallPanel.fbx using Guid(e91f7b19526c40b45bf90cfa60742b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd415e60aae655d45a0166ef597f3f8b3') in 0.025393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 261.579004 seconds.
+  path: Assets/Sources/Metalic
+  artifactKey: Guid(76a91ef1acda7cb438700f646d73a49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Metalic using Guid(76a91ef1acda7cb438700f646d73a49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a2c9b508d2614e18cefb12e4fa769a') in 0.007799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.957802 seconds.
+  path: Assets/Sources/Materials
+  artifactKey: Guid(76a91ef1acda7cb438700f646d73a49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Materials using Guid(76a91ef1acda7cb438700f646d73a49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d27e5001a4b56e6a53b3a722bc88a2b') in 0.007346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.727204 seconds.
+  path: Assets/Sources/Materials/Metalic
+  artifactKey: Guid(5a7b1c2d45ea20c4893025e36a0887c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Materials/Metalic using Guid(5a7b1c2d45ea20c4893025e36a0887c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d482835a118ef305d75fda947a21c2') in 0.002864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.496399 seconds.
+  path: Assets/Sources/Materials/Metalic/Metalic.shader
+  artifactKey: Guid(7bb80836a55eec941beedd26198e6d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Materials/Metalic/Metalic.shader using Guid(7bb80836a55eec941beedd26198e6d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d67103a6fd6140a36a84c555d6306c') in 0.007437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.081556 seconds.
+  path: Assets/Sources/Materials/Metalic/Metalic.shader
+  artifactKey: Guid(7bb80836a55eec941beedd26198e6d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Materials/Metalic/Metalic.shader using Guid(7bb80836a55eec941beedd26198e6d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74fe3a91de4a86c85ef83aad2a2cbdb8') in 0.005534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 262.408178 seconds.
+  path: Assets/Sources/Materials/Metalic/Metalic.shader
+  artifactKey: Guid(7bb80836a55eec941beedd26198e6d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Materials/Metalic/Metalic.shader using Guid(7bb80836a55eec941beedd26198e6d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f337b8753c475efc7677c77b066c5fa6') in 0.005192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 87.860655 seconds.
+  path: Assets/Sources/Materials/Metalic/Metalic.shader
+  artifactKey: Guid(7bb80836a55eec941beedd26198e6d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Materials/Metalic/Metalic.shader using Guid(7bb80836a55eec941beedd26198e6d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '964b912343cf660d19cd347eb8877458') in 0.005928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.859449 seconds.
+  path: Assets/Sources/Materials/Metalic/Metalic.shader
+  artifactKey: Guid(7bb80836a55eec941beedd26198e6d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Materials/Metalic/Metalic.shader using Guid(7bb80836a55eec941beedd26198e6d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6566b66cdb0854a5ef96a14e135bba') in 0.004676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 115.053334 seconds.
+  path: Assets/Sources/Materials/Metalic/Metalic.shader
+  artifactKey: Guid(7bb80836a55eec941beedd26198e6d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Materials/Metalic/Metalic.shader using Guid(7bb80836a55eec941beedd26198e6d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc9a4d2a83217878a343a38e136ef11') in 0.004366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.330429 seconds.
+  path: Assets/Sources/Materials/Metalic/Metalic.shader
+  artifactKey: Guid(7bb80836a55eec941beedd26198e6d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Materials/Metalic/Metalic.shader using Guid(7bb80836a55eec941beedd26198e6d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6cd26effb0176c3eeda385d55f092d1') in 0.005127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.532426 seconds.
+  path: Assets/Sources/Materials/Metalic/Metalic.shader
+  artifactKey: Guid(7bb80836a55eec941beedd26198e6d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Materials/Metalic/Metalic.shader using Guid(7bb80836a55eec941beedd26198e6d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c688b4041f72b65d1469f6eb7bd52e') in 0.004580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 120.242762 seconds.
+  path: Assets/Sources/Materials/Metalic/Metalic.shader
+  artifactKey: Guid(7bb80836a55eec941beedd26198e6d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Materials/Metalic/Metalic.shader using Guid(7bb80836a55eec941beedd26198e6d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bff81ac7c6dd55b008d3b1f54539ff2') in 0.005685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.257743 seconds.
+  path: Assets/Sources/Materials/Metalic/Metalic.shader
+  artifactKey: Guid(7bb80836a55eec941beedd26198e6d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Materials/Metalic/Metalic.shader using Guid(7bb80836a55eec941beedd26198e6d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09da37c3744c04c0c624060616c81e0') in 0.005241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 394.770724 seconds.
+  path: Assets/Sources/Materials/Metalic/Metalic.shader
+  artifactKey: Guid(7bb80836a55eec941beedd26198e6d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Materials/Metalic/Metalic.shader using Guid(7bb80836a55eec941beedd26198e6d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaff2dcfd8146f761bcfbfce2ad138f2') in 0.006663 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007438 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\RoadToTeachArt\RoadToTechArt\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\RoadToTeachArt\RoadToTechArt\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.006 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2007ms)
+		BeginReloadAssembly (250ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (1573ms)
+			LoadAssemblies (171ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (501ms)
+				TypeCache.Initialize (493ms)
+					TypeCache.ScanAssembly (482ms)
+				ResolveRequiredComponents (8ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (136ms)
+			SetupLoadedEditorAssemblies (686ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (58ms)
+				SetLoadedEditorAssemblies (15ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (425ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Shader 'Hidden/Universal/Decals': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Hidden/Universal/2D Custom Lit': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 3.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3955 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 116 unused Assets / (37.9 MB). Loaded Objects now: 4568.
+Memory consumption went from 0.67 GB to 0.63 GB.
+Total: 29.787400 ms (FindLiveObjects: 0.421000 ms CreateObjectMapping: 0.331400 ms MarkObjects: 4.656800 ms  DeleteObjects: 24.376500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 443.616329 seconds.
+  path: Assets/Sources/Scenes/New Scene.unity
+  artifactKey: Guid(99b3f53670c86d54aa473ddc12e595ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Scenes/New Scene.unity using Guid(99b3f53670c86d54aa473ddc12e595ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5c7f45fae024bca752250a14a0e082') in 0.009642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.219432 seconds.
+  path: Assets/Sources/Scenes/New SceneTemplate.scenetemplate
+  artifactKey: Guid(8cabb4d3edc71324db7c1f1e5bb44cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Scenes/New SceneTemplate.scenetemplate using Guid(8cabb4d3edc71324db7c1f1e5bb44cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1105471b33eb625123a8f2ec05800e6e') in 0.041142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.186414 seconds.
+  path: Assets/Sources/Scenes/BaseShaderScene.scenetemplate
+  artifactKey: Guid(8cabb4d3edc71324db7c1f1e5bb44cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Scenes/BaseShaderScene.scenetemplate using Guid(8cabb4d3edc71324db7c1f1e5bb44cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec1401863a428898bbaa7468df958373') in 0.012047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.395145 seconds.
+  path: Assets/Sources/Scenes/BaseShaderScene.unity
+  artifactKey: Guid(cfacc815023fb23488d1c016229ec1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Scenes/BaseShaderScene.unity using Guid(cfacc815023fb23488d1c016229ec1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4eb2483784271b4f5861e60b982dcf') in 0.009139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.948181 seconds.
+  path: Assets/Sources/Scenes/Metalic.unity
+  artifactKey: Guid(e2f7fc5820389e4428316018d612f9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Scenes/Metalic.unity using Guid(e2f7fc5820389e4428316018d612f9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63bdcc79d7fbd1abc83d41a53e3330ce') in 0.009765 seconds 
