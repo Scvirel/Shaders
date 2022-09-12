@@ -1,0 +1,536 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.14f1 (ff7e140968b4) revision 16743956'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'en' Physical Memory: 16331 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.1.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/UnityProjects/RoadToTeachArt/RoadToTechArt
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+51847
+Successfully changed project path to: D:/UnityProjects/RoadToTeachArt/RoadToTechArt
+D:/UnityProjects/RoadToTeachArt/RoadToTechArt
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 187.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.14f1 (ff7e140968b4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProjects/RoadToTeachArt/RoadToTechArt/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     8171 MB
+    Driver:   30.0.13023.4001
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.14f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.14f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.017632 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 229.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.391 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1392ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (960ms)
+			LoadAssemblies (149ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (187ms)
+				TypeCache.Initialize (186ms)
+					TypeCache.ScanAssembly (185ms)
+				ResolveRequiredComponents (1ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (630ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (105ms)
+				SetLoadedEditorAssemblies (23ms)
+				RefreshPlugins (230ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007653 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\RoadToTeachArt\RoadToTechArt\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\RoadToTeachArt\RoadToTechArt\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 208.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.240 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3241ms)
+		BeginReloadAssembly (335ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (139ms)
+		EndReloadAssembly (2707ms)
+			LoadAssemblies (155ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (691ms)
+				TypeCache.Initialize (601ms)
+					TypeCache.ScanAssembly (592ms)
+				ResolveRequiredComponents (90ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (395ms)
+			SetupLoadedEditorAssemblies (1218ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (15ms)
+				RefreshPlugins (209ms)
+				BeforeProcessingInitializeOnLoad (192ms)
+				ProcessInitializeOnLoadAttributes (557ms)
+				ProcessInitializeOnLoadMethodAttributes (194ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5977 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.0 MB). Loaded Objects now: 6442.
+Memory consumption went from 1.01 GB to 1.01 GB.
+Total: 8.269200 ms (FindLiveObjects: 0.876400 ms CreateObjectMapping: 1.022000 ms MarkObjects: 5.524300 ms  DeleteObjects: 0.844400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 339423.294269 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/DynamicTypeNode.cs
+  artifactKey: Guid(5b60c440b5db81c4d9df9c048aa22b48) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/DynamicTypeNode.cs using Guid(5b60c440b5db81c4d9df9c048aa22b48) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ee7b3a01c51aa45bd113434eb573f76') in 0.455969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateAdditionalParentHelper.cs
+  artifactKey: Guid(5360ba11600eeb44786246ca70212e25) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateAdditionalParentHelper.cs using Guid(5360ba11600eeb44786246ca70212e25) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea83c4f5fb7778265a4fd78f48bde97a') in 0.013095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateAdditionalDirectivesHelper.cs
+  artifactKey: Guid(c6b57deeb826a674f9715fab4dfb4cb1) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateAdditionalDirectivesHelper.cs using Guid(c6b57deeb826a674f9715fab4dfb4cb1) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b238fe9d2b4a36e782f3c1523db1538') in 0.011797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/StickyNoteNode.cs
+  artifactKey: Guid(6d517b63dc9604043985eb4a82d2d135) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/StickyNoteNode.cs using Guid(6d517b63dc9604043985eb4a82d2d135) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '863f58098fb203f20bcebe137c8f9b3a') in 0.013953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/NodeAttributes.cs
+  artifactKey: Guid(ec3cfdc3a4d1a7a4cb24c1c079e1750a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/NodeAttributes.cs using Guid(ec3cfdc3a4d1a7a4cb24c1c079e1750a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7524dbf8112bd56d6e12a454bf863053') in 0.013899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/ReordenatorNode.cs
+  artifactKey: Guid(91aad2b9cfaf3954c8c450c32d218981) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/ReordenatorNode.cs using Guid(91aad2b9cfaf3954c8c450c32d218981) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c9d28cfafad4715c965e2f192f9c4e45') in 0.012926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/NodeUtils.cs
+  artifactKey: Guid(9eb57a68790e6e343affe131e8a0f860) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/NodeUtils.cs using Guid(9eb57a68790e6e343affe131e8a0f860) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '33208ee31b20ee388297da62126b0cf7') in 0.015960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateCullModeModule.cs
+  artifactKey: Guid(dcbce53ba2eeecd4a8f2c7f5f9a43b7a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateCullModeModule.cs using Guid(dcbce53ba2eeecd4a8f2c7f5f9a43b7a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4037760a7201797f34f7f9dd82ced617') in 0.016378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateAdditionalPragmasHelper.cs
+  artifactKey: Guid(de89b62c2bd8eec4b915a0decba936fb) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateAdditionalPragmasHelper.cs using Guid(de89b62c2bd8eec4b915a0decba936fb) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8a614eb43a76a425c4100d35562090a') in 0.017909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateAdditionalDefinesHelper.cs
+  artifactKey: Guid(35a7fdfdb9a6b0048aa322a9fe58a371) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateAdditionalDefinesHelper.cs using Guid(35a7fdfdb9a6b0048aa322a9fe58a371) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '22cd38ce59808ca37d93df142fe08e5e') in 0.018007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/UndoParentNode.cs
+  artifactKey: Guid(bcc69b2f388d45f43a9157ce814b5aae) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/UndoParentNode.cs using Guid(bcc69b2f388d45f43a9157ce814b5aae) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52e9df51b99352e7e7bff92a4054ed4f') in 0.017637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateFragmentDataNode.cs
+  artifactKey: Guid(2b53cc116abb0df45b028f41b8f0305e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateFragmentDataNode.cs using Guid(2b53cc116abb0df45b028f41b8f0305e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '689f4c434ae5e56548dc1e90c3d0f5e7') in 0.022304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateDBItem.cs
+  artifactKey: Guid(b12f2516af03f3443b1f2c08c72aa490) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateDBItem.cs using Guid(b12f2516af03f3443b1f2c08c72aa490) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba6ceb54b20a63d936d2060f023d2001') in 0.013088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateLocalVarData.cs
+  artifactKey: Guid(4c6ad22d8633c7142ae0237479df76ed) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateLocalVarData.cs using Guid(4c6ad22d8633c7142ae0237479df76ed) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '952d91add7761da005061c7b1204ac11') in 0.014493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/ISignalGenerator.cs
+  artifactKey: Guid(cfeab503d3318794ea1af322505320ef) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/ISignalGenerator.cs using Guid(cfeab503d3318794ea1af322505320ef) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dc9dfffa7bc05314e47e2c6fe8d9a4e1') in 0.014695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateAlphaToMaskModule.cs
+  artifactKey: Guid(84e56f8cb109deb4da1945562567bf0c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateAlphaToMaskModule.cs using Guid(84e56f8cb109deb4da1945562567bf0c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '89c8b61f28bc525625bf5c6df256d2a8') in 0.014484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateLocalVarsNode.cs
+  artifactKey: Guid(f708a5bf672ab004a9363a4a71f48f28) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateLocalVarsNode.cs using Guid(f708a5bf672ab004a9363a4a71f48f28) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1b4e21ada9e09d95b7e4f3644ac85619') in 0.013438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateDepthModule.cs
+  artifactKey: Guid(91bbf209a618780459e775d6816a4b06) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateDepthModule.cs using Guid(91bbf209a618780459e775d6816a4b06) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd76e31997b0a61647fed13d3da6dfb5d') in 0.014614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateHelperFunctions.cs
+  artifactKey: Guid(517aad6764d713946bc566f0a83cd44d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateHelperFunctions.cs using Guid(517aad6764d713946bc566f0a83cd44d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6afd6c647b6e059a735144616a832252') in 0.013039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateCodeSnippetBase.cs
+  artifactKey: Guid(5fc48fb872ce5e74aa913f987a025ea4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateCodeSnippetBase.cs using Guid(5fc48fb872ce5e74aa913f987a025ea4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8264c14ac3867c2e498b7fc37e04910d') in 0.013621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateDataParent.cs
+  artifactKey: Guid(4e8f3788c7c239042b3cc3d086311227) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateDataParent.cs using Guid(4e8f3788c7c239042b3cc3d086311227) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f1023edb3315c4f0925832486d7ec409') in 0.017949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateColorMaskModule.cs
+  artifactKey: Guid(e1d9e34bd7946e247aa6d28b2859c6b1) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateColorMaskModule.cs using Guid(e1d9e34bd7946e247aa6d28b2859c6b1) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5a22c969c34455c8c2603e4324a7522a') in 0.016155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateInterpData.cs
+  artifactKey: Guid(8f700ba5366bcda45beea5c0e2db9f3e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateInterpData.cs using Guid(8f700ba5366bcda45beea5c0e2db9f3e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '084e32ef62afb383ff052bbb95d80cc7') in 0.014092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/NodeRestrictions.cs
+  artifactKey: Guid(bd1aff8475f370d4380918491184aef5) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/NodeRestrictions.cs using Guid(bd1aff8475f370d4380918491184aef5) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f5b0c42f3bb2ea1ec25d9c2408bcc03') in 0.019906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateAdditionalIncludesHelper.cs
+  artifactKey: Guid(0ab4c474dfddce2429da08f56e651ed4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Plugins/Editor/Templates/TemplateAdditionalIncludesHelper.cs using Guid(0ab4c474dfddce2429da08f56e651ed4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '80ef45e944eb035c10e3da82917fb99b') in 0.012946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/Editor/Menu/ConfirmationWindow.cs
+  artifactKey: Guid(291cb40a04f835a4d89037cf3053c6a3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Plugins/Editor/Menu/ConfirmationWindow.cs using Guid(291cb40a04f835a4d89037cf3053c6a3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2b9a1a4d028f887ee3c4cdf34233b70d') in 0.012852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Built-In/TerrainSnowCoverage/terrain.raw
+  artifactKey: Guid(7d090d520283f1044b0805734d71a2c4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Examples/Built-In/TerrainSnowCoverage/terrain.raw using Guid(7d090d520283f1044b0805734d71a2c4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9877c1ba8a75c8dd5b5dd387e16ffd9e') in 0.015586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/ParentNode.cs
+  artifactKey: Guid(33e0374f361d5c642a257b9957e4cfa0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Plugins/Editor/Nodes/ParentNode.cs using Guid(33e0374f361d5c642a257b9957e4cfa0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '548484f0c8be3ce6ed49da30d9144f9f') in 0.015798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Built-In/Projectors/ProjectorShadow.shader
+  artifactKey: Guid(80e9b20428f98044daa50d5f29a63324) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Examples/Built-In/Projectors/ProjectorShadow.shader using Guid(80e9b20428f98044daa50d5f29a63324) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3cb7728bf36b7eaf951b11808c1fd273') in 0.024091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Built-In/SimpleNoise/SimpleNoise.mat
+  artifactKey: Guid(cc167bc6c2063a14f84a5a77be541194) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Examples/Built-In/SimpleNoise/SimpleNoise.mat using Guid(cc167bc6c2063a14f84a5a77be541194) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b3f5345d09dc9925e4c26cdf501ebf5') in 0.035910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Built-In/OrientationBasedSprite/OrientationBasedSprite.asset
+  artifactKey: Guid(1da8bc02c5f4ead4bb2f573150575751) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Examples/Built-In/OrientationBasedSprite/OrientationBasedSprite.asset using Guid(1da8bc02c5f4ead4bb2f573150575751) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a2e4b8798460bfff645d07d48d5f6372') in 0.036833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Built-In/ReadFromAtlasTiled/ImprovedReadFromAtlasTiled.shader
+  artifactKey: Guid(ca3935d65ba92714d89677a8f3c4d101) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Examples/Built-In/ReadFromAtlasTiled/ImprovedReadFromAtlasTiled.shader using Guid(ca3935d65ba92714d89677a8f3c4d101) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7e839fc7da2de6e78d73bf0fe70bd107') in 0.026871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Built-In/Transmission/Transmission.unity
+  artifactKey: Guid(49075e26805268d449c9671eaadfc89e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Examples/Built-In/Transmission/Transmission.unity using Guid(49075e26805268d449c9671eaadfc89e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Opening scene 'Assets/AmplifyShaderEditor/Examples/Built-In/Transmission/Transmission.unity additively'
+LightingSettings: switching bake backend from 1 to 0.
+Loaded scene 'Assets/AmplifyShaderEditor/Examples/Built-In/Transmission/Transmission.unity'
+	Deserialize:            1.316 ms
+	Integration:            8.462 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.014 ms
+	Total Operation Time:   9.795 ms
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a9233b7c7d9a4760569e6733dae3ac19') in 0.212737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Built-In/PlaneClip/PlaneClip.cs
+  artifactKey: Guid(56ef2d9550612774bbf4ee3f1194345b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Examples/Built-In/PlaneClip/PlaneClip.cs using Guid(56ef2d9550612774bbf4ee3f1194345b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '14366da78b2a2ee54d4ff48179ea76a0') in 0.012580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sources/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sources/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Opening scene 'Assets/Sources/Scenes/SampleScene.unity additively'
+Loaded scene 'Assets/Sources/Scenes/SampleScene.unity'
+	Deserialize:            0.795 ms
+	Integration:            0.396 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.010 ms
+	Total Operation Time:   1.205 ms
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a2c840b3c8f0fb4c1d7e588d7627996e') in 0.035033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Built-In/TerrainSnowCoverage/TerrainBase.shader
+  artifactKey: Guid(5aeeceee203a90a409f8e01cef8796fe) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Examples/Built-In/TerrainSnowCoverage/TerrainBase.shader using Guid(5aeeceee203a90a409f8e01cef8796fe) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd248d317d421354414979513e56ff098') in 0.021200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/AmplifyShaderEditor/Examples/Built-In/TerrainSnowCoverage/TerrainSnowCoverageSample.unity
+  artifactKey: Guid(e4280accb4f92724d9366763fafbb982) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/AmplifyShaderEditor/Examples/Built-In/TerrainSnowCoverage/TerrainSnowCoverageSample.unity using Guid(e4280accb4f92724d9366763fafbb982) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Opening scene 'Assets/AmplifyShaderEditor/Examples/Built-In/TerrainSnowCoverage/TerrainSnowCoverageSample.unity additively'
+LightingSettings: switching bake backend from 1 to 0.
+
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a UNKNOWN while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Managed Stacktrace:
+=================================================================
+	  at <unknown> <0xffffffff>
+	  at UnityEditor.SceneManagement.EditorSceneManager:OpenScene_Injected <0x000f6>
+	  at UnityEditor.SceneManagement.EditorSceneManager:OpenScene <0x0008a>
+	  at UnityEditor.Search.AssetIndexer:IndexScene <0x0020a>
+	  at UnityEditor.Search.AssetIndexer:IndexSceneDocument <0x00142>
+	  at UnityEditor.Search.AssetIndexer:IndexDocument <0x026c2>
+	  at UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset <0x002b9>
+	  at UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData <0x00084>
+	  at <Module>:runtime_invoke_void__this___object <0x0018d>
+=================================================================
+Received signal SIGSEGV
+Obtained 59 stack frames
+0x00007ff6395e8e49 (Unity) CreateAssetToGUIDMappingV2
+0x00007ff63957984a (Unity) AssetDatabase::CreateAssetToGUIDMapping
+0x00007ff638a61717 (Unity) SplatDatabase::CreateTerrainLayerAsset
+0x00007ff638a5faa0 (Unity) SplatDatabase::ConvertSplatsToTerrainLayers
+0x00007ff638a5c35c (Unity) SplatDatabase::AwakeFromLoad
+0x00007ff638a8e5a6 (Unity) TerrainData::AwakeFromLoad
+0x00007ff6382b445f (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
+0x00007ff6382b4eec (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff6382b5053 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff6382877f2 (Unity) PersistentManager::IntegrateAllThreadedObjects
+0x00007ff638288110 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
+0x00007ff63828c522 (Unity) PersistentManager::ReadObject
+0x00007ff63770c75b (Unity) PPtr<TerrainData>::operator TerrainData * __ptr64
+0x00007ff638aea96b (Unity) TerrainCollider::Create
+0x00007ff638098116 (Unity) Collider::AwakeFromLoad
+0x00007ff638aea2d9 (Unity) TerrainCollider::AwakeFromLoad
+0x00007ff6382b445f (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
+0x00007ff6382b4eec (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff6382b5053 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff637ee80b9 (Unity) LoadSceneOperation::CompleteAwakeSequence
+0x00007ff637eebb27 (Unity) LoadSceneOperation::PostLoadSceneAdditive
+0x00007ff637ee9607 (Unity) LoadSceneOperation::IntegrateMainThread
+0x00007ff637eed3db (Unity) PreloadManager::UpdatePreloadingSingleStep
+0x00007ff637eed9df (Unity) PreloadManager::WaitForAllAsyncOperationsToComplete
+0x00007ff637f0dec4 (Unity) RuntimeSceneManager::LoadScene
+0x00007ff639110451 (Unity) EditorSceneManager::OpenSceneLoaded
+0x00007ff63910ec17 (Unity) EditorSceneManager::OpenScene
+0x00007ff638c266f2 (Unity) EditorSceneManagerBindings::OpenScene
+0x00007ff6378b06c7 (Unity) EditorSceneManager_CUSTOM_OpenScene_Injected
+0x000001fb6e068ac7 (Mono JIT Code) (wrapper managed-to-native) UnityEditor.SceneManagement.EditorSceneManager:OpenScene_Injected (string,UnityEditor.SceneManagement.OpenSceneMode,UnityEngine.SceneManagement.Scene&)
+0x000001fb6e0688fb (Mono JIT Code) UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+0x000001fb6e067a4b (Mono JIT Code) UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+0x000001fb2adefb73 (Mono JIT Code) UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+0x000001fb2ad94233 (Mono JIT Code) UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+0x000001fb2ad8867a (Mono JIT Code) UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+0x000001fb2ad87f75 (Mono JIT Code) UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+0x000001fb2ad8816e (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void__this___object (object,intptr,intptr,intptr)
+0x00007ffa24a902f4 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffa249ceb34 (mono-2.0-bdwgc) [object.c:3066] do_runtime_invoke 
+0x00007ffa249ceccc (mono-2.0-bdwgc) [object.c:3113] mono_runtime_invoke 
+0x00007ff6381fe8d4 (Unity) scripting_method_invoke
+0x00007ff6381de224 (Unity) ScriptingInvocation::Invoke
+0x00007ff6396ac741 (Unity) ScriptedImporter::GenerateAssetData
+0x00007ff6395a8c11 (Unity) ImportToObjects
+0x00007ff6395a7ba3 (Unity) ImportAsset
+0x00007ff6395cac17 (Unity) AssetImportWorker::Import
+0x00007ff639633284 (Unity) <lambda_d18e3400227f702c19ede75248229b18>::operator()
+0x00007ff6396730a2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff63965f68e (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff639661384 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff63967171e (Unity) IOService::Run
+0x00007ff63964372f (Unity) AssetImportWorkerClient::Run
+0x00007ff63960e2d3 (Unity) RunAssetImportWorkerClientV2
+0x00007ff63960e35b (Unity) RunAssetImporterV2
+0x00007ff638e19785 (Unity) Application::InitializeProject
+0x00007ff63929074b (Unity) WinMain
+0x00007ff63a60355e (Unity) __scrt_common_main_seh
+0x00007ffa70387034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa70d02651 (ntdll) RtlUserThreadStart
+
