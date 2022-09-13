@@ -1,5 +1,9 @@
 sceneSetups:
-- path: Assets/AmplifyShaderEditor/Examples/Built-In/XRay/XRay.unity
+- path: Assets/Sources/Scenes/Burn.unity
   isLoaded: 1
   isActive: 1
+  isSubScene: 0
+- path: Assets/Sources/Scenes/BaseShaderScene.unity
+  isLoaded: 1
+  isActive: 0
   isSubScene: 0
