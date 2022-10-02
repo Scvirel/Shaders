@@ -12,6 +12,8 @@ namespace RoadToTechArt.Client
         private Renderer _renderer = default;
         private RenderTexture _renderTexture = default;
 
+        private const int RENDER_ITERATIONS = 3;
+
         private void Awake()
         {
             Initialize();
@@ -33,6 +35,11 @@ namespace RoadToTechArt.Client
             if (!_renderer.isVisible)
             {
                 return;
+            }
+
+            for (int i = RENDER_ITERATIONS; i > 0; i--)
+            {
+
             }
 
             SetupProjection(mainCamera, otherPortalTransform);
