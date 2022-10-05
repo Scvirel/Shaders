@@ -37,8 +37,8 @@ namespace RoadToTechArt.Client
             Transform enterPortalTransform = _portalEnter.transform;
             Transform exitPortalTransform = _portalExit.transform;
 
-            transform.MirrorPosition(enterPortalTransform, exitPortalTransform);
-            transform.MirrorRotation(enterPortalTransform, exitPortalTransform);
+            transform.position = transform.MirrorPosition(enterPortalTransform, exitPortalTransform);
+            transform.rotation = transform.MirrorRotation(enterPortalTransform, exitPortalTransform);
         }
     }
 }

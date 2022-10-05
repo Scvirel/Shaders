@@ -18,7 +18,7 @@ namespace RoadToTechArt.Client
         private void OnTriggerEnter(Collider other)
         {
             Teleporter teleporter = default;
-            
+
             if (other.TryGetComponent(out teleporter))
             {
                 _enteredObject = teleporter;
