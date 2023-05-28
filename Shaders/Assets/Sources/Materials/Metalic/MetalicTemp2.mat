@@ -28,6 +28,6 @@ Material:
     - _Albedo: 0
     - _Metalic: 1
     - _Smoothness: 0.5
-    - __dirty: 1
+    - __dirty: 0
     m_Colors: []
   m_BuildTextureStacks: []
